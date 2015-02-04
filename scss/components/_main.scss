@@ -12,12 +12,12 @@
 .box2{
   padding: 2em;
    text-align: center;
-    background-color: $color_mine_shaft_approx;
+    background-color: $bottom-bg;
 }
 
 h1{
   font-size: 30px;
-  color: $color_mine_shaft_approx;
+  color: $bottom-bg;
   text-align: center;
   font-family: $josefin-sans;
 }
@@ -28,7 +28,7 @@ h1{
 %extend_1 {
   margin: 0;
   padding: 0;
-  background: $color_celeste_approx;
+  background: $top-div;
 }
 
 //original selectors
@@ -42,7 +42,7 @@ h1{
   zoom: 1;
   width: 0;
   padding: 0;
-  background: $color_mine_shaft_approx;
+  background: $bottom-bg;
 }
 
 
@@ -63,7 +63,7 @@ ul.acordeon {
   width: 100%;
   overflow: hidden;
   padding: 0;
-  background-color: $outer-text;
+  background-color: $background-accord;
   text-align: center;
   list-style: none;
   font-size: 0;
@@ -82,18 +82,18 @@ ul.acordeon {
     width: 5%;
     height: 0;
     padding-bottom: 30%;
-    background: $color_gallery_approx;
+    background: $outer-title;
     text-align: center;
     font-family:  $josefin-sans; 
     font-weight: 300; 
     //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-    box-shadow: -1px 0 1px $color_mountain_mist_approx;
+    box-shadow: -1px 0 1px $accordion-glow;
     h4 {
       position: relative;
       top: 5%;
       z-index: 1;
       margin: 0;
-      font-size: 8px;
+      font-size: 7.5px;
       text-align: center;
       text-transform: uppercase;
       //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
@@ -111,12 +111,12 @@ ul.acordeon {
       @extend %extend_2;
     }
     &:hover {
-      width: 60%;
-      background: $color_mine_shaft_approx;
+      width: 50%;
+      background: $bottom-bg;
       h4 {
         padding-left: 10px;
-        background: $color_disco_approx;
-        color: $color_gallery;
+        background: $inner-title-bar;
+        color: $inner-text;
         //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
         transform: none;
       }
