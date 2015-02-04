@@ -27,17 +27,24 @@ h1 {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif; }
 
-/* line 24, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+/* line 25, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+li, p {
+  font-size: 20px;
+  color: #8F8F8F;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif; }
+
+/* line 32, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
 .logo {
   width: 30%; }
 
-/* line 28, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+/* line 36, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
 html, body {
   margin: 0;
   padding: 0;
   background: #ffffff; }
 
-/* line 36, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+/* line 44, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
 ul.acordeon li a, ul.acordeon li img {
   position: absolute;
   bottom: 0;
@@ -50,13 +57,13 @@ ul.acordeon li a, ul.acordeon li img {
   background: #8F8F8F; }
 
 @media only screen and (max-width: 600px) {
-  /* line 56, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+  /* line 64, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
   ul.acordeon li h4 {
     font-size: 8px;
     letter-spacing: 1px; }
  }
 
-/* line 62, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+/* line 70, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
 ul.acordeon {
   width: 100%;
   overflow: hidden;
@@ -65,10 +72,10 @@ ul.acordeon {
   text-align: center;
   list-style: none;
   font-size: 0; }
-  /* line 72, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+  /* line 80, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
   ul.acordeon * {
     transition: all 0.8s ease-in-out; }
-  /* line 77, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+  /* line 85, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
   ul.acordeon li {
     position: relative;
     display: inline-block;
@@ -82,7 +89,7 @@ ul.acordeon {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     box-shadow: -1px 0 1px #7B53ED; }
-    /* line 91, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+    /* line 99, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
     ul.acordeon li h4 {
       position: relative;
       top: 5%;
@@ -100,11 +107,11 @@ ul.acordeon {
       white-space: nowrap;
       color: #ffffff;
       letter-spacing: 3px; }
-    /* line 113, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+    /* line 121, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
     ul.acordeon li:hover {
       width: 50%;
       background: #8F8F8F; }
-      /* line 116, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+      /* line 124, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
       ul.acordeon li:hover h4 {
         padding-left: 10px;
         background: #000000;
@@ -112,9 +119,9 @@ ul.acordeon {
         -webkit-transform: none;
             -ms-transform: none;
                 transform: none; }
-      /* line 123, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+      /* line 131, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
       ul.acordeon li:hover a {
         width: 100%; }
-        /* line 125, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
+        /* line 133, /Users/NicholeVeiro/Documents/Graphic Design/Graphic Design Semester 6/Web Development/exercise-4/scss/components/main */
         ul.acordeon li:hover a img {
           width: 100%; }
